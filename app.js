@@ -13,7 +13,7 @@
 * License for the specific language governing permissions and limitations under
 * the License.
 */
-var serverPath = 'http://benwilhelm.com/hangouts-app-sandbox';
+var serverPath = 'http://benwilhelm.com/';
 
 // The functions triggered by the buttons on the Hangout App
 function countButtonClick() {
