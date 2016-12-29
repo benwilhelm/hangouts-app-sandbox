@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd dist && \
+git checkout gh-pages && \
+git pull && \
+git add -A && \
+theDate=`date` && \
+git commit -m "Build: $date" && \
+git push
